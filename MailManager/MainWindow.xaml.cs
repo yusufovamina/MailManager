@@ -17,10 +17,10 @@ namespace MailManager
 
         private void SendEmail_Click(object sender, RoutedEventArgs e)
         {
+            SMTP();
             txtBody.Text = "Text";
             txtSubject.Text = "Subject";
             txtTo.Text = "To";
-            SMTP();
 
         }
 
